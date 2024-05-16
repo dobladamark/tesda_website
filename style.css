@@ -1724,6 +1724,8 @@ align-items: center;  }
         height: auto;
     }
    
+    
+
 }
 
 @media (max-width:550px) {
@@ -1772,7 +1774,9 @@ align-items: center;  }
         font-size: 30px;
     }
     
-    
+    .logotesda {
+        width: 100%;
+      }
  
 }
 
@@ -1803,6 +1807,16 @@ align-items: center;  }
     100% {bottom:1rem;}
   }
   
+  .logotesda {
+    width: 100%;
+  }
+
+  body {
+    width: 100.15%;
+    
+  }
+  
+  
 
 }
 
@@ -1827,6 +1841,10 @@ align-items: center;  }
     }
 
     .logotesda {
-        width: 275px;
-    }
+        width: 80%;
+      }
+
+     
 }
+
+
