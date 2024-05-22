@@ -100,6 +100,9 @@ document.querySelectorAll('.grid-container img').forEach(image => {
   const slides = document.querySelectorAll('.main-sec-bg-slider .slide');
   let currentSlide = 0;
 
+  slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
   
   function showNextSlide() {
     slides[currentSlide].classList.remove('active');
