@@ -330,6 +330,11 @@ font-weight: 700;
     font-size: 35px;
 }
 
+.events-header2 {
+    padding: 0 50px 0 210px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
 
 
 .events-container {
@@ -1247,8 +1252,8 @@ footer {
 }
 
 .grid-img:hover {
-    transform: scale(1.01);
- filter: brightness(120%);
+    
+ filter: brightness(60%);
 }
 
 .grid-container {
@@ -1496,6 +1501,10 @@ align-items: center;  }
         .tesda-details h1 {
             text-align: center;
         }
+
+        .events-header2 {
+            padding: 20px 0 0 545px;
+        }
 }
 
 @media(max-width:1024px) {
@@ -1538,6 +1547,8 @@ align-items: center;  }
        
     }
 
+    
+
     .test-cf {
         padding: 4rem 0;
     }
@@ -1557,8 +1568,24 @@ align-items: center;  }
         width: 88%;
         height: auto;
     }
+
+    .events-header2 {
+        padding: 20px 0 0 420px;
+    }
 }
 
+@media (max-width:912px) {
+
+    .events-header2 {
+        padding: 20px 0 0 360px;
+    }
+}
+
+@media (max-width:863px) {
+    .events-header2 {
+        padding: 20px 0 0 325px;
+    }
+}
 
 @media (max-width:835px) {
 
@@ -1598,7 +1625,11 @@ align-items: center;  }
     width: 80%;
     height: auto;
 }
-
+  
+.events-header2 {
+    padding: 20px 0 0 335px;
+}
+ 
 }
 
 
@@ -1686,6 +1717,10 @@ align-items: center;  }
 
     .tesda-details {
         width: auto;
+    }
+
+    .events-header2 {
+        padding: 20px 0 0 320px;
     }
 }
 
@@ -1777,7 +1812,11 @@ align-items: center;  }
     .logotesda {
         width: 100%;
       }
- 
+    
+    .events-header2 {
+        padding: 20px 0 0 210px;
+    }
+      
 }
 
 
@@ -1811,9 +1850,23 @@ align-items: center;  }
     width: 100%;
   }
 
+  .events-header2 {
+    padding: 0 20px 0 150px;
+  }
 
+ 
   
 
+}
+
+
+
+
+
+@media (max-width:412px) {
+    .events-header2 {
+        padding: 20px 0 0 140px;
+    }
 }
 
 @media (max-width:390px) {
@@ -1839,11 +1892,28 @@ align-items: center;  }
     .logotesda {
         width: 80%;
       }
+      
+   
+     
+}
 
-      body {
-        width: 100.10%;
-        
-      }
+@media (max-width: 360px) {
+    .events-header2 {
+        padding: 20px 0 0 120px;
+    }
 }
 
 
+@media (max-width: 344px) {
+    .events-header2 {
+        padding: 20px 0 0 110px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .events-header2 {
+        padding: 0 0 0 100px;
+    }
+}
