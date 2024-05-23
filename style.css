@@ -328,13 +328,11 @@ font-weight: 700;
 .events-header {
     margin-bottom: 20px;
     font-size: 35px;
+    text-align: center;
+    
 }
 
-.events-header2 {
-    padding: 0 50px 0 210px;
-    font-size: 35px;
-    margin-bottom: 20px;
-}
+
 
 
 .events-container {
@@ -1433,8 +1431,7 @@ footer {
     }
     
     .h-container {
-        gap: 
-        7rem;
+        gap: 7rem;
     }
     
     .events-sec {
@@ -1502,9 +1499,11 @@ align-items: center;  }
             text-align: center;
         }
 
-        .events-header2 {
-            padding: 20px 0 0 545px;
-        }
+        .events-header {
+        text-align: center;
+    }
+
+        
 }
 
 @media(max-width:1024px) {
@@ -1568,24 +1567,16 @@ align-items: center;  }
         width: 88%;
         height: auto;
     }
-
-    .events-header2 {
-        padding: 20px 0 0 420px;
+    .events-header {
+        text-align: center;
     }
+
+    
 }
 
-@media (max-width:912px) {
 
-    .events-header2 {
-        padding: 20px 0 0 360px;
-    }
-}
 
-@media (max-width:863px) {
-    .events-header2 {
-        padding: 20px 0 0 325px;
-    }
-}
+
 
 @media (max-width:835px) {
 
@@ -1626,8 +1617,8 @@ align-items: center;  }
     height: auto;
 }
   
-.events-header2 {
-    padding: 20px 0 0 335px;
+.events-header {
+    text-align: center;
 }
  
 }
@@ -1719,9 +1710,10 @@ align-items: center;  }
         width: auto;
     }
 
-    .events-header2 {
-        padding: 20px 0 0 320px;
+    .events-header {
+        text-align: center;
     }
+    
 }
 
 @media (max-width:640px) {
@@ -1813,9 +1805,7 @@ align-items: center;  }
         width: 100%;
       }
     
-    .events-header2 {
-        padding: 20px 0 0 210px;
-    }
+    
       
 }
 
@@ -1850,9 +1840,7 @@ align-items: center;  }
     width: 100%;
   }
 
-  .events-header2 {
-    padding: 0 20px 0 150px;
-  }
+  
 
  
   
@@ -1864,9 +1852,7 @@ align-items: center;  }
 
 
 @media (max-width:412px) {
-    .events-header2 {
-        padding: 20px 0 0 140px;
-    }
+    
 }
 
 @media (max-width:390px) {
@@ -1893,27 +1879,8 @@ align-items: center;  }
         width: 80%;
       }
       
+      
    
      
 }
 
-@media (max-width: 360px) {
-    .events-header2 {
-        padding: 20px 0 0 120px;
-    }
-}
-
-
-@media (max-width: 344px) {
-    .events-header2 {
-        padding: 20px 0 0 110px;
-    }
-}
-
-
-
-@media (max-width: 320px) {
-    .events-header2 {
-        padding: 0 0 0 100px;
-    }
-}
