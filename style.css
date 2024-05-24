@@ -781,6 +781,7 @@ width: 100%;
     font-size: 30px;
     position: relative;
     display: inline-block;
+    text-align: center;
     
 }
 
@@ -906,7 +907,7 @@ border-radius: 5px;
     bottom: 0;
     transform: scaleX(0);
     transform-origin: left;
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;  
 }
 
 .tesda-details:hover .aboutesda:before {
